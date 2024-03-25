@@ -1,0 +1,31 @@
+.boxR{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    border: 1px solid gray;
+    background-color: blue;
+    max-height: 80vh;
+    min-height: 80vh;
+    max-width: 45vw;
+    min-width: 45vw;
+    margin-top: 2vh;
+    overflow-y: scroll;
+}
+.boxL{
+    float:left;
+    margin-top: 2vh;
+    max-width: 52vw;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    min-width: 30%;
+    background-color: goldenrod;
+    border: 1px solid rgb(158, 120, 23);
+    box-shadow: 1px black;
+    margin: 1%;
+    min-height: 50vh;
+}
