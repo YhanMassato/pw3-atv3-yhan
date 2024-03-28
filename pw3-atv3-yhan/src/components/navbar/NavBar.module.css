@@ -3,10 +3,12 @@
     margin: 0;
 }
 
+
 .list{
     display: flex;
     list-style: none;
-    background-color: blue;
+    margin-top: 0.5vh;
+    justify-content: center;
 }
 
 .navItem{
@@ -15,32 +17,34 @@
     text-transform: uppercase;
     font-weight: 700;
     color: black;
+    padding: 20px 40px;
 }
 
 .navItem:hover{
-    color:white;
+    color:rgb(158, 120, 23);
+    cursor:pointer;
 }
 
 .item{
     text-decoration:none;
-    padding: 20px 40px;
-    background-color: aqua;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    padding:20px 1vw;
+    background-color: goldenrod;
+    border-bottom: 2px solid rgb(158, 120, 23);
+    border-top: 2px solid rgb(158, 120, 23);
+    
 }
 
 .item:hover {
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .item:visited{
     color: black;
 }
 .item:first-child{
-    margin-left: 1vw;
-    border-left: 1px solid black;
+    border-left: 2px solid rgb(158, 120, 23);
 }
 
 .item:last-child{
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(158, 120, 23);
 }

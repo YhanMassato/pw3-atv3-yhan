@@ -28,9 +28,9 @@ export default function Get() {
 
                 <div className="boxR" >
                     {
-                            <div class='card' key={users.id}>
-                                <h1 class='card-title'>{users.title}</h1>
-                                <p class='card-body'>{users.body}</p>
+                            <div className='card' key={users.id}>
+                                <h1 className='card-title'>{users.title}</h1>
+                                <p className='card-body'>{users.body}</p>
                             </div>
                     }
             </div>{/* boxR */}
